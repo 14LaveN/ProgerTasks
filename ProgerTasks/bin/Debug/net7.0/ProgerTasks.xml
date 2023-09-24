@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProgerTasks</name>
+    </assembly>
+    <members>
+        <member name="M:ProgerTasks.Controllers.V1.AccountController.Register(ProgerTasks.Domain.DTO.Account.AccountInput)">
+             <summary>
+             Register account
+             </summary>
+             <param name="accountInput"></param>
+             <returns>Base information about register an account</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return claims identity</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:ProgerTasks.Controllers.V1.AccountController.Login(ProgerTasks.Domain.DTO.Account.AccountLoginInput)">
+             <summary>
+             Login account
+             </summary>
+             <param name="accountLoginInput"></param>
+             <returns>Base information about login an account</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return claims identity</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:ProgerTasks.Controllers.V1.AccountController.Logout">
+             <summary>
+             Logout
+             </summary>
+             <returns>Base information about logout from account</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Logout</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:ProgerTasks.Controllers.V1.AccountController.ChangePassword(System.String,System.Int32)">
+             <summary>
+             Change Password
+             </summary>
+             <param name="id"></param>
+             <param name="newPassword"></param>
+             <returns>Base information about change password</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return new password</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:ProgerTasks.Controllers.V1.AccountController.ChangeTeamName(System.Int32,System.String)">
+             <summary>
+             Change team name
+             </summary>
+             <param name="id"></param>
+             <param name="newTeamName"></param>
+             <returns>Base information about change team name</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return updated team name</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:ProgerTasks.Controllers.V1.TasksController.CreateTask(ProgerTasks.Domain.DTO.Task.TaskInput)">
+            <summary>
+            Create task
+            </summary>
+            <param name="taskInput"></param>
+            <returns>Base information about task creating</returns>
+            <remarks>
+            Example request:
+            </remarks>
+            <response code="200">Returns task</response>
+            <response code="400"></response>
+            <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:ProgerTasks.Controllers.V1.TasksController.GetAllTasks">
+            <summary>
+            Get all tasks
+            </summary>
+            <param name="taskInput"></param>
+            <returns>Base information about get all tasks</returns>
+            <remarks>
+            Example request:
+            </remarks>
+            <response code="200">Returns tasks</response>
+            <response code="400"></response>
+            <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:ProgerTasks.Controllers.V1.TasksController.UpdateTask(System.Int32,ProgerTasks.Domain.DTO.Task.TaskInput)">
+             <summary>
+             Update task
+             </summary>
+             <param name="id"></param>
+             <param name="taskInput"></param>
+             <returns>Base information about updating task</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return updated task</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:ProgerTasks.Controllers.V1.TasksController.DeleteTask(System.Int32)">
+             <summary>
+             Delete task
+             </summary>
+             <param name="id"></param>
+             <returns>Base information about updating task</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return deleted task</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pGKCVK7EltuIOTTD/0ubVjkN/Jp5cyKp/3fOoRMnBHtphGxg5I9UoLJTDgFuuxBZJEw1Dzb/Wt5x/hjjTHDIww==",
+  "success": true,
+  "projectFilePath": "E:\\DotNetProjects\\ProgerTasks\\ProgerTasks.Domain\\ProgerTasks.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Laven\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

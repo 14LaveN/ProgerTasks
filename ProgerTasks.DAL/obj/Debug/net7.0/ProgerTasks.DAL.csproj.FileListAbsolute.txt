@@ -1,0 +1,17 @@
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\obj\Debug\net7.0\ProgerTasks.DAL.csproj.AssemblyReference.cache
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\obj\Debug\net7.0\ProgerTasks.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\obj\Debug\net7.0\ProgerTasks.DAL.AssemblyInfoInputs.cache
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\obj\Debug\net7.0\ProgerTasks.DAL.AssemblyInfo.cs
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\obj\Debug\net7.0\ProgerTasks.DAL.csproj.CoreCompileInputs.cache
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\bin\Debug\net7.0\ProgerTasks.DAL.deps.json
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\bin\Debug\net7.0\ProgerTasks.DAL.runtimeconfig.json
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\bin\Debug\net7.0\ProgerTasks.DAL.dll
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\bin\Debug\net7.0\ProgerTasks.DAL.pdb
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\bin\Debug\net7.0\ProgerTasks.Domain.dll
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\bin\Debug\net7.0\ProgerTasks.Domain.pdb
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\obj\Debug\net7.0\ProgerTasks.DAL.csproj.CopyComplete
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\obj\Debug\net7.0\ProgerTasks.DAL.dll
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\obj\Debug\net7.0\refint\ProgerTasks.DAL.dll
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\obj\Debug\net7.0\ProgerTasks.DAL.pdb
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\obj\Debug\net7.0\ProgerTasks.DAL.genruntimeconfig.cache
+E:\DotNetProjects\ProgerTasks\ProgerTasks.DAL\obj\Debug\net7.0\ref\ProgerTasks.DAL.dll

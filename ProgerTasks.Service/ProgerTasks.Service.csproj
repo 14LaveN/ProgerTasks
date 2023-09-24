@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Class1.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ProgerTasks.DAL\ProgerTasks.DAL.csproj" />
+      <ProjectReference Include="..\ProgerTasks.Domain\ProgerTasks.Domain.csproj" />
+    </ItemGroup>
+
+
+
+</Project>

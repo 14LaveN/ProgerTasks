@@ -1,0 +1,402 @@
+2023-09-21 13:11:43.9779 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-21 13:11:44.0012 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-21 13:11:44.0012 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-21 13:11:44.0202 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-21 13:11:44.0202 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-21 13:11:44.0431 Info Configuration initialized.
+2023-09-21 13:14:30.8659 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-21 13:14:30.8847 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-21 13:14:30.8847 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-21 13:14:30.8988 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-21 13:14:30.9070 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-21 13:14:30.9070 Info Configuration initialized.
+2023-09-21 13:14:57.2822 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-21 13:14:57.2822 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-21 13:14:57.2822 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-21 13:14:57.2822 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-21 13:14:57.3056 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-21 13:14:57.3195 Info Configuration initialized.
+2023-09-21 13:41:37.9001 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-21 13:41:37.9057 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-21 13:41:37.9057 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-21 13:41:37.9057 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-21 13:41:37.9232 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-21 13:41:37.9373 Info Configuration initialized.
+2023-09-21 14:49:26.7362 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-21 14:49:26.7530 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-21 14:49:26.7530 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-21 14:49:26.7675 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-21 14:49:26.7675 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-21 14:49:26.7876 Info Configuration initialized.
+2023-09-21 14:50:24.1314 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-21 14:50:24.1495 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-21 14:50:24.1495 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-21 14:50:24.1642 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-21 14:50:24.1725 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-21 14:50:24.1725 Info Configuration initialized.
+2023-09-21 14:50:57.6547 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-21 14:50:57.6701 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-21 14:50:57.6709 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-21 14:50:57.6709 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-21 14:50:57.6899 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-21 14:50:57.6899 Info Configuration initialized.
+2023-09-21 14:52:46.8388 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-21 14:52:46.8542 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-21 14:52:46.8542 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-21 14:52:46.8671 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-21 14:52:46.8753 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-21 14:52:46.8753 Info Configuration initialized.
+2023-09-21 14:53:01.8518 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-21 14:53:01.8518 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-21 14:53:01.8591 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-21 14:53:01.8591 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-21 14:53:01.8765 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-21 14:53:01.8909 Info Configuration initialized.
+2023-09-22 15:14:49.9995 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:14:50.0366 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:14:50.0366 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:14:50.0526 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:14:50.0608 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:14:50.0608 Info Configuration initialized.
+2023-09-22 15:15:35.9721 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:15:35.9882 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:15:35.9882 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:15:36.0009 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:15:36.0009 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:15:36.0212 Info Configuration initialized.
+2023-09-22 15:15:56.5600 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:15:56.5666 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:15:56.5666 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:15:56.5763 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:15:56.5763 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:15:56.5986 Info Configuration initialized.
+2023-09-22 15:16:10.4423 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:16:10.4605 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:16:10.4605 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:16:10.4739 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:16:10.4823 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:16:10.4823 Info Configuration initialized.
+2023-09-22 15:16:59.8755 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:16:59.8952 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:16:59.8952 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:16:59.9092 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:16:59.9092 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:16:59.9305 Info Configuration initialized.
+2023-09-22 15:19:21.8539 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:19:21.8699 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:19:21.8699 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:19:21.8834 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:19:21.8917 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:19:21.8917 Info Configuration initialized.
+2023-09-22 15:21:09.3062 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:21:09.3224 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:21:09.3224 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:21:09.3355 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:21:09.3437 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:21:09.3606 Info Configuration initialized.
+2023-09-22 15:22:10.9921 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:22:11.0122 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:22:11.0133 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:22:11.0133 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:22:11.0354 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:22:11.0492 Info Configuration initialized.
+2023-09-22 15:26:14.5144 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:26:14.5313 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:26:14.5313 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:26:14.5451 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:26:14.5451 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:26:14.5665 Info Configuration initialized.
+2023-09-22 15:27:28.1685 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:27:28.1841 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:27:28.1849 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:27:28.1849 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:27:28.2075 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:27:28.2197 Info Configuration initialized.
+2023-09-22 15:28:29.2454 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:28:29.2615 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:28:29.2615 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:28:29.2741 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:28:29.2823 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:28:29.2955 Info Configuration initialized.
+2023-09-22 15:28:48.0318 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:28:48.0479 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:28:48.0479 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:28:48.0610 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:28:48.0610 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:28:48.0812 Info Configuration initialized.
+2023-09-22 15:29:11.5142 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:29:11.5296 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:29:11.5296 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:29:11.5296 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:29:11.5503 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:29:11.5622 Info Configuration initialized.
+2023-09-22 15:29:54.8034 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:29:54.8185 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:29:54.8185 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:29:54.8303 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:29:54.8303 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:29:54.8503 Info Configuration initialized.
+2023-09-22 15:31:04.4556 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:31:04.4724 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:31:04.4724 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:31:04.4858 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:31:04.4858 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:31:04.5072 Info Configuration initialized.
+2023-09-22 15:31:35.8478 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:31:35.8635 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:31:35.8635 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:31:35.8795 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:31:35.8795 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:31:35.8995 Info Configuration initialized.
+2023-09-22 15:32:13.1270 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:32:13.1453 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:32:13.1453 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:32:13.1620 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:32:13.1729 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:32:13.1895 Info Configuration initialized.
+2023-09-22 15:34:02.4732 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 15:34:02.4895 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 15:34:02.4895 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 15:34:02.5024 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 15:34:02.5024 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 15:34:02.5227 Info Configuration initialized.
+2023-09-22 18:12:05.3066 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 18:12:05.3323 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 18:12:05.3323 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 18:12:05.3323 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 18:12:05.3535 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 18:12:05.3709 Info Configuration initialized.
+2023-09-22 18:13:15.5726 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 18:13:15.5873 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 18:13:15.5873 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 18:13:15.6011 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 18:13:15.6011 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 18:13:15.6240 Info Configuration initialized.
+2023-09-22 18:13:51.8623 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 18:13:51.8786 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 18:13:51.8786 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 18:13:51.8917 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 18:13:51.8917 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 18:13:51.9126 Info Configuration initialized.
+2023-09-22 18:15:39.3862 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 18:15:39.4014 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 18:15:39.4014 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 18:15:39.4158 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 18:15:39.4239 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 18:15:39.4239 Info Configuration initialized.
+2023-09-22 18:17:17.1896 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 18:17:17.2050 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 18:17:17.2050 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 18:17:17.2050 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 18:17:17.2280 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 18:17:17.2401 Info Configuration initialized.
+2023-09-22 18:17:59.9213 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 18:17:59.9358 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 18:17:59.9358 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 18:17:59.9483 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 18:17:59.9568 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 18:17:59.9568 Info Configuration initialized.
+2023-09-22 18:22:06.8503 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-22 18:22:06.8648 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-22 18:22:06.8648 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-22 18:22:06.8785 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 18:22:06.8785 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-22 18:22:06.8983 Info Configuration initialized.
+2023-09-23 09:05:41.0427 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:05:41.0573 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:05:41.0573 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:05:41.0725 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:05:41.0808 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:05:41.0808 Info Configuration initialized.
+2023-09-23 09:07:01.5849 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:07:01.5994 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:07:01.5994 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:07:01.6114 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:07:01.6114 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:07:01.6314 Info Configuration initialized.
+2023-09-23 09:09:14.6383 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:09:14.6557 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:09:14.6557 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:09:14.6710 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:09:14.6799 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:09:14.6916 Info Configuration initialized.
+2023-09-23 09:10:57.0434 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:10:57.0586 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:10:57.0586 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:10:57.0712 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:10:57.0793 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:10:57.0793 Info Configuration initialized.
+2023-09-23 09:13:00.2535 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:13:00.2690 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:13:00.2690 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:13:00.2820 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:13:00.2820 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:13:00.3036 Info Configuration initialized.
+2023-09-23 09:13:19.2051 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:13:19.2198 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:13:19.2198 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:13:19.2198 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:13:19.2403 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:13:19.2521 Info Configuration initialized.
+2023-09-23 09:17:21.9534 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:17:21.9534 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:17:21.9688 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:17:21.9688 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:17:21.9923 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:17:22.0050 Info Configuration initialized.
+2023-09-23 09:20:38.6992 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:20:38.7136 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:20:38.7136 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:20:38.7259 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:20:38.7259 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:20:38.7513 Info Configuration initialized.
+2023-09-23 09:41:18.7338 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:41:18.7504 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:41:18.7504 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:41:18.7504 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:41:18.7718 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:41:18.7838 Info Configuration initialized.
+2023-09-23 09:42:39.9282 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:42:39.9430 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:42:39.9430 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:42:39.9572 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:42:39.9572 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:42:39.9774 Info Configuration initialized.
+2023-09-23 09:43:34.8340 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:43:34.8484 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:43:34.8484 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:43:34.8630 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:43:34.8630 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:43:34.8832 Info Configuration initialized.
+2023-09-23 09:44:40.2684 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:44:40.2836 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:44:40.2836 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:44:40.2988 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:44:40.2988 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:44:40.3193 Info Configuration initialized.
+2023-09-23 09:45:18.2843 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:45:18.2989 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:45:18.2989 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:45:18.2989 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:45:18.3196 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:45:18.3316 Info Configuration initialized.
+2023-09-23 09:46:40.4513 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 09:46:40.4662 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 09:46:40.4662 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 09:46:40.4788 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 09:46:40.4873 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 09:46:40.4873 Info Configuration initialized.
+2023-09-23 12:24:07.0310 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 12:24:07.0647 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 12:24:07.0647 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 12:24:07.0789 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 12:24:07.0789 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 12:24:07.1006 Info Configuration initialized.
+2023-09-23 12:37:49.4331 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 12:37:49.4491 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 12:37:49.4491 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 12:37:49.4658 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 12:37:49.4738 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 12:37:49.4864 Info Configuration initialized.
+2023-09-23 12:38:24.4996 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 12:38:24.5173 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 12:38:24.5173 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 12:38:24.5335 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 12:38:24.5335 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 12:38:24.5532 Info Configuration initialized.
+2023-09-23 13:11:01.3536 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 13:11:01.3712 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 13:11:01.3712 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 13:11:01.3893 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 13:11:01.3981 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 13:11:01.4105 Info Configuration initialized.
+2023-09-23 13:11:56.5091 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 13:11:56.5245 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 13:11:56.5245 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 13:11:56.5396 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 13:11:56.5486 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 13:11:56.5486 Info Configuration initialized.
+2023-09-23 13:13:03.3711 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 13:13:03.3865 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 13:13:03.3865 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 13:13:03.4007 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 13:13:03.4087 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 13:13:03.4087 Info Configuration initialized.
+2023-09-23 13:14:32.4493 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 13:14:32.4636 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 13:14:32.4636 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 13:14:32.4775 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 13:14:32.4855 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 13:14:32.4855 Info Configuration initialized.
+2023-09-23 13:16:25.4941 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 13:16:25.5088 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 13:16:25.5088 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 13:16:25.5230 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 13:16:25.5230 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 13:16:25.5433 Info Configuration initialized.
+2023-09-23 13:17:56.3733 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 13:17:56.3878 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 13:17:56.3878 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 13:17:56.4009 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 13:17:56.4095 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 13:17:56.4095 Info Configuration initialized.
+2023-09-23 13:25:20.1378 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 13:25:20.1526 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 13:25:20.1526 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 13:25:20.1664 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 13:25:20.1749 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 13:25:20.1749 Info Configuration initialized.
+2023-09-23 13:40:52.0010 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 13:40:52.0162 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 13:40:52.0162 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 13:40:52.0162 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 13:40:52.0383 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 13:40:52.0506 Info Configuration initialized.
+2023-09-23 13:41:56.3218 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 13:41:56.3367 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 13:41:56.3367 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 13:41:56.3508 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 13:41:56.3508 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 13:41:56.3715 Info Configuration initialized.
+2023-09-23 14:50:38.7273 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 14:50:38.7563 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 14:50:38.7563 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 14:50:38.7714 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 14:50:38.7714 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 14:50:38.7936 Info Configuration initialized.
+2023-09-23 14:55:46.1887 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 14:55:46.2067 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 14:55:46.2067 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 14:55:46.2249 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 14:55:46.2249 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 14:55:46.2459 Info Configuration initialized.
+2023-09-23 14:56:54.3413 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 14:56:54.3566 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 14:56:54.3566 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 14:56:54.3710 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 14:56:54.3794 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 14:56:54.3914 Info Configuration initialized.
+2023-09-23 21:10:09.7490 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-23 21:10:09.7644 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-23 21:10:09.7644 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-23 21:10:09.7773 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 21:10:09.7857 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-23 21:10:09.7981 Info Configuration initialized.
+2023-09-24 16:33:00.6445 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-24 16:33:00.7070 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-24 16:33:00.7070 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-24 16:33:00.7242 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-24 16:33:00.7351 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-24 16:33:00.7503 Info Configuration initialized.
+2023-09-24 16:34:49.6229 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-24 16:34:49.6403 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-24 16:34:49.6403 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-24 16:34:49.6573 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-24 16:34:49.6573 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-24 16:34:49.6778 Info Configuration initialized.
+2023-09-24 17:13:44.9283 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-24 17:13:44.9645 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-24 17:13:44.9645 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-24 17:13:44.9824 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-24 17:13:44.9824 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\ProgerTasks\ProgerTasks\bin\Debug\net7.0\nlog.config
+2023-09-24 17:13:45.0039 Info Configuration initialized.

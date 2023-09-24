@@ -1,0 +1,12 @@
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\bin\Debug\net7.0\ProgerTasks.Domain.deps.json
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\bin\Debug\net7.0\ProgerTasks.Domain.dll
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\bin\Debug\net7.0\ProgerTasks.Domain.pdb
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\obj\Debug\net7.0\ProgerTasks.Domain.csproj.AssemblyReference.cache
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\obj\Debug\net7.0\ProgerTasks.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\obj\Debug\net7.0\ProgerTasks.Domain.AssemblyInfoInputs.cache
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\obj\Debug\net7.0\ProgerTasks.Domain.AssemblyInfo.cs
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\obj\Debug\net7.0\ProgerTasks.Domain.csproj.CoreCompileInputs.cache
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\obj\Debug\net7.0\ProgerTasks.Domain.dll
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\obj\Debug\net7.0\refint\ProgerTasks.Domain.dll
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\obj\Debug\net7.0\ProgerTasks.Domain.pdb
+E:\DotNetProjects\ProgerTasks\ProgerTasks.Domain\obj\Debug\net7.0\ref\ProgerTasks.Domain.dll

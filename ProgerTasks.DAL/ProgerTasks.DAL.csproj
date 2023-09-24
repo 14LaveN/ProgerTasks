@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Class1.cs" />
+      <Compile Remove="Entry.cs" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.0.151" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+      <PackageReference Include="Npgsql" Version="7.0.6" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.11" />
+      <PackageReference Include="Witrics.Free" Version="1.6.2" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\ProgerTasks.Domain\ProgerTasks.Domain.csproj" />
+    </ItemGroup>
+
+
+
+
+
+</Project>

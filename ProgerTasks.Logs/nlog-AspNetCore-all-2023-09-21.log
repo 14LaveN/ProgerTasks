@@ -1,0 +1,381 @@
+2023-09-21 13:11:44.2146|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-09-21 13:11:44.2993|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-09-21 13:11:44.5130|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7184 
+2023-09-21 13:11:44.5495|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 
+2023-09-21 13:11:44.5495|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ProgerTasks 
+2023-09-21 13:11:44.5495|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-09-21 13:11:44.5495|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-09-21 13:11:44.5495|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\ProgerTasks\ProgerTasks 
+2023-09-21 13:11:44.5495|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-09-21 13:11:44.5743|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQE81J54N1" received FIN. 
+2023-09-21 13:11:44.5780|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQE81J54N1" accepted. 
+2023-09-21 13:11:44.5780|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQE81J54N1" started. 
+2023-09-21 13:11:44.5988|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-21 13:11:44.6291|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQE81J54N1" stopped. 
+2023-09-21 13:11:44.6291|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQE81J54N1" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-09-21 13:11:44.8834|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQE81J54N2" accepted. 
+2023-09-21 13:11:44.8834|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQE81J54N2" started. 
+2023-09-21 13:11:44.9500|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMTQE81J54N2 established using the following protocol: Tls13 
+2023-09-21 13:11:44.9978|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-09-21 13:11:44.9996|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-21 13:11:44.9996|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-09-21 13:11:44.9996|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-09-21 13:11:44.9996|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-21 13:11:44.9996|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 13:11:44.9996|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-09-21 13:11:45.0347|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - - 
+2023-09-21 13:11:45.0347|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-09-21 13:11:45.0347|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 13:11:45.0579|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2023-09-21 13:11:45.0579|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-09-21 13:11:45.2504|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-09-21 13:11:45.2504|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending DATA frame for stream ID 1 with length 4746 and flags NONE. 
+2023-09-21 13:11:45.2504|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-09-21 13:11:45.2504|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 225.5661ms 
+2023-09-21 13:11:45.3632|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" received HEADERS frame for stream ID 3 with length 114 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 13:11:45.3632|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - 
+2023-09-21 13:11:45.3632|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 13:11:45.3632|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2023-09-21 13:11:45.3632|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-09-21 13:11:45.5595|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending HEADERS frame for stream ID 3 with length 65 and flags END_HEADERS. 
+2023-09-21 13:11:45.5595|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending DATA frame for stream ID 3 with length 8143 and flags NONE. 
+2023-09-21 13:11:45.5595|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-09-21 13:11:45.5595|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 194.7085ms 
+2023-09-21 13:11:53.9171|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" received HEADERS frame for stream ID 5 with length 50 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 13:11:53.9171|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/api/v1/Tasks - - 
+2023-09-21 13:11:53.9171|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 13:11:53.9207|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/v1/Tasks' 
+2023-09-21 13:11:53.9207|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'ProgerTasks.Controllers.TasksController.GetAllTasks (ProgerTasks)' with route pattern 'api/v1/Tasks' is valid for the request path '/api/v1/Tasks' 
+2023-09-21 13:11:53.9207|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'ProgerTasks.Controllers.TasksController.GetAllTasks (ProgerTasks)' 
+2023-09-21 13:11:53.9207|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2023-09-21 13:11:53.9207|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ProgerTasks.Controllers.TasksController.GetAllTasks (ProgerTasks)' 
+2023-09-21 13:11:53.9411|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllTasks", controller = "Tasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[ProgerTasks.Domain.Response.IBaseResponse`1[System.Collections.Generic.IEnumerable`1[ProgerTasks.Domain.Entity.TaskEntity]]] GetAllTasks() on controller ProgerTasks.Controllers.TasksController (ProgerTasks). 
+2023-09-21 13:11:53.9411|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-09-21 13:11:53.9411|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-09-21 13:11:53.9411|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-09-21 13:11:53.9411|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-09-21 13:11:53.9411|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0) 
+2023-09-21 13:11:53.9411|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller ProgerTasks.Controllers.TasksController (ProgerTasks) 
+2023-09-21 13:11:53.9701|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller ProgerTasks.Controllers.TasksController (ProgerTasks) 
+2023-09-21 13:11:53.9701|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-09-21 13:11:53.9701|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-21 13:11:53.9701|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-21 13:11:53.9701|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-09-21 13:11:53.9701|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-09-21 13:11:53.9701|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ProgerTasks.Controllers.TasksController.GetAllTasks (ProgerTasks) - Validation state: Valid 
+2023-09-21 13:11:53.9701|0|INFO|ProgerTasks.Service.Implementations.Tasks.TaskService|Request for get all tasks 
+2023-09-21 13:11:54.4506|0|INFO|ProgerTasks.Service.Implementations.Tasks.TaskService|Tasks received 
+2023-09-21 13:11:54.4563|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ProgerTasks.Controllers.TasksController.GetAllTasks (ProgerTasks), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 479.4259ms. 
+2023-09-21 13:11:54.4563|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-09-21 13:11:54.4563|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-09-21 13:11:54.4563|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-21 13:11:54.4563|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-21 13:11:54.4563|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-09-21 13:11:54.4563|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-09-21 13:11:54.4563|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-09-21 13:11:54.4563|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-09-21 13:11:54.4563|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-09-21 13:11:54.4563|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-09-21 13:11:54.4563|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-09-21 13:11:54.4563|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'application/json' and explicitly specified content types 'application/json'. The content types in the accept header must be a subset of the explicitly set content types. 
+2023-09-21 13:11:54.4563|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-09-21 13:11:54.4563|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ProgerTasks.Domain.Response.BaseResponse`1[[System.Collections.Generic.IEnumerable`1[[ProgerTasks.Domain.Entity.TaskEntity, ProgerTasks.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-09-21 13:11:54.4851|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending HEADERS frame for stream ID 5 with length 66 and flags END_HEADERS. 
+2023-09-21 13:11:54.4851|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending DATA frame for stream ID 5 with length 231 and flags NONE. 
+2023-09-21 13:11:54.4851|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-09-21 13:11:54.4851|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-09-21 13:11:54.4851|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-09-21 13:11:54.4851|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-09-21 13:11:54.4851|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-09-21 13:11:54.4851|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-21 13:11:54.4851|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ProgerTasks.Controllers.TasksController.GetAllTasks (ProgerTasks) in 544.5395ms 
+2023-09-21 13:11:54.4851|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ProgerTasks.Controllers.TasksController.GetAllTasks (ProgerTasks)' 
+2023-09-21 13:11:54.4851|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE81J54N2" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-09-21 13:11:54.4851|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/api/v1/Tasks - - - 200 - application/json;+charset=utf-8 572.8751ms 
+2023-09-21 13:14:31.0670|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-09-21 13:14:31.1372|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-09-21 13:14:31.3250|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7184 
+2023-09-21 13:14:31.3443|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 
+2023-09-21 13:14:31.3443|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ProgerTasks 
+2023-09-21 13:14:31.3443|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-09-21 13:14:31.3443|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-09-21 13:14:31.3443|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\ProgerTasks\ProgerTasks 
+2023-09-21 13:14:31.3443|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-09-21 13:14:31.4575|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQE9JALS2P" received FIN. 
+2023-09-21 13:14:57.3716|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-09-21 13:14:57.4244|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-09-21 13:14:57.5056|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7184 
+2023-09-21 13:14:57.5147|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 
+2023-09-21 13:14:57.5147|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ProgerTasks 
+2023-09-21 13:14:57.5147|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-09-21 13:14:57.5147|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-09-21 13:14:57.5147|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\ProgerTasks\ProgerTasks 
+2023-09-21 13:14:57.5147|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-09-21 13:14:58.0070|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQE9R7S42E" received FIN. 
+2023-09-21 13:14:58.0070|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQE9R7S42E" accepted. 
+2023-09-21 13:14:58.0070|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQE9R7S42E" started. 
+2023-09-21 13:14:58.0232|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-21 13:14:58.0359|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQE9R7S42E" stopped. 
+2023-09-21 13:14:58.0359|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQE9R7S42E" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-09-21 13:14:58.1032|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQE9R7S42F" accepted. 
+2023-09-21 13:14:58.1032|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQE9R7S42F" started. 
+2023-09-21 13:14:58.1333|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMTQE9R7S42F established using the following protocol: Tls13 
+2023-09-21 13:14:58.1503|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-09-21 13:14:58.1503|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-21 13:14:58.1503|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-09-21 13:14:58.1503|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-09-21 13:14:58.1503|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-21 13:14:58.1503|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 13:14:58.1647|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-09-21 13:14:58.1713|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - - 
+2023-09-21 13:14:58.1713|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-09-21 13:14:58.1713|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 13:14:58.1881|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2023-09-21 13:14:58.1881|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-09-21 13:14:58.2888|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-09-21 13:14:58.2888|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending DATA frame for stream ID 1 with length 4746 and flags NONE. 
+2023-09-21 13:14:58.2888|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-09-21 13:14:58.2888|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 124.2898ms 
+2023-09-21 13:14:58.3866|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" received HEADERS frame for stream ID 3 with length 114 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 13:14:58.3866|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - 
+2023-09-21 13:14:58.3866|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 13:14:58.3866|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2023-09-21 13:14:58.3866|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-09-21 13:14:58.5143|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending HEADERS frame for stream ID 3 with length 65 and flags END_HEADERS. 
+2023-09-21 13:14:58.5143|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending DATA frame for stream ID 3 with length 7342 and flags NONE. 
+2023-09-21 13:14:58.5143|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-09-21 13:14:58.5154|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.5309ms 
+2023-09-21 13:15:22.8997|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" received HEADERS frame for stream ID 5 with length 52 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 13:15:22.8997|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-09-21 13:15:22.8997|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-09-21 13:15:22.8997|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - - 
+2023-09-21 13:15:22.8997|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 13:15:22.8997|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2023-09-21 13:15:22.8997|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-09-21 13:15:22.8997|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending HEADERS frame for stream ID 5 with length 34 and flags END_HEADERS. 
+2023-09-21 13:15:22.8997|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending DATA frame for stream ID 5 with length 4746 and flags NONE. 
+2023-09-21 13:15:22.8997|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-09-21 13:15:22.8997|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 1.8460ms 
+2023-09-21 13:15:22.8997|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-21 13:15:23.0017|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" received HEADERS frame for stream ID 7 with length 46 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 13:15:23.0017|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - 
+2023-09-21 13:15:23.0017|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 13:15:23.0017|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2023-09-21 13:15:23.0017|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-09-21 13:15:23.0017|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending HEADERS frame for stream ID 7 with length 4 and flags END_HEADERS. 
+2023-09-21 13:15:23.0017|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending DATA frame for stream ID 7 with length 7342 and flags NONE. 
+2023-09-21 13:15:23.0017|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2023-09-21 13:15:23.0017|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.8440ms 
+2023-09-21 13:15:27.0126|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2023-09-21 13:15:27.0126|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping 
+2023-09-21 13:15:27.0175|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" is closing. 
+2023-09-21 13:15:27.0175|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" is closed. The last processed stream ID was 7. 
+2023-09-21 13:15:27.0175|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQE9R7S42F" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2023-09-21 13:15:27.0175|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQE9R7S42F" received FIN. 
+2023-09-21 13:15:27.0175|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQE9R7S42F" sending FIN because: "The client closed the connection." 
+2023-09-21 13:15:27.0175|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HMTQE9R7S42F completed. 
+2023-09-21 13:15:27.0175|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQE9R7S42F" stopped. 
+2023-09-21 13:15:27.0175|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped 
+2023-09-21 13:41:37.9875|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-09-21 13:41:38.0435|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-09-21 13:41:38.1271|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7184 
+2023-09-21 13:41:38.1271|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 
+2023-09-21 13:41:38.1271|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ProgerTasks 
+2023-09-21 13:41:38.1271|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-09-21 13:41:38.1271|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-09-21 13:41:38.1271|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\ProgerTasks\ProgerTasks 
+2023-09-21 13:41:38.1271|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-09-21 13:41:38.1992|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQEOO4G1Q6" received FIN. 
+2023-09-21 13:41:38.2025|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQEOO4G1Q6" accepted. 
+2023-09-21 13:41:38.2025|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQEOO4G1Q6" started. 
+2023-09-21 13:41:38.2025|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-21 13:41:38.2247|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQEOO4G1Q6" stopped. 
+2023-09-21 13:41:38.2247|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQEOO4G1Q6" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-09-21 13:41:38.3222|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQEOO4G1Q7" accepted. 
+2023-09-21 13:41:38.3222|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQEOO4G1Q7" started. 
+2023-09-21 13:41:38.3536|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMTQEOO4G1Q7 established using the following protocol: Tls13 
+2023-09-21 13:41:38.3712|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-09-21 13:41:38.3712|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-21 13:41:38.3712|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-09-21 13:41:38.3712|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-09-21 13:41:38.3712|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-21 13:41:38.3712|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 13:41:38.3861|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-09-21 13:41:38.3927|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - - 
+2023-09-21 13:41:38.3927|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-09-21 13:41:38.3927|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 13:41:38.4091|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2023-09-21 13:41:38.4091|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-09-21 13:41:38.5074|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-09-21 13:41:38.5074|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" sending DATA frame for stream ID 1 with length 4746 and flags NONE. 
+2023-09-21 13:41:38.5074|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-09-21 13:41:38.5074|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 121.8943ms 
+2023-09-21 13:41:38.6063|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" received HEADERS frame for stream ID 3 with length 114 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 13:41:38.6063|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - 
+2023-09-21 13:41:38.6084|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 13:41:38.6084|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2023-09-21 13:41:38.6084|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-09-21 13:41:38.7301|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" sending HEADERS frame for stream ID 3 with length 35 and flags END_HEADERS. 
+2023-09-21 13:41:38.7301|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" sending DATA frame for stream ID 3 with length 7342 and flags NONE. 
+2023-09-21 13:41:38.7301|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-09-21 13:41:38.7301|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.0267ms 
+2023-09-21 13:41:43.7235|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2023-09-21 13:41:43.7235|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping 
+2023-09-21 13:41:43.7235|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" is closing. 
+2023-09-21 13:41:43.7235|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" is closed. The last processed stream ID was 3. 
+2023-09-21 13:41:43.7235|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQEOO4G1Q7" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2023-09-21 13:41:43.7235|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQEOO4G1Q7" received FIN. 
+2023-09-21 13:41:43.7235|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQEOO4G1Q7" sending FIN because: "The client closed the connection." 
+2023-09-21 13:41:43.7235|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HMTQEOO4G1Q7 completed. 
+2023-09-21 13:41:43.7235|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQEOO4G1Q7" stopped. 
+2023-09-21 13:41:43.7353|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped 
+2023-09-21 14:49:26.9321|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-09-21 14:49:27.0035|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-09-21 14:49:27.0219|0|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: A suitable constructor for type 'ProgerTasks.Middlewares.RequestLoggingMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2023-09-21 14:50:24.3548|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-09-21 14:50:24.4315|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-09-21 14:50:24.4514|0|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: A suitable constructor for type 'ProgerTasks.Middlewares.RequestLoggingMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2023-09-21 14:50:57.8339|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-09-21 14:50:57.9008|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-09-21 14:50:57.9160|0|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: A suitable constructor for type 'ProgerTasks.Middlewares.RequestLoggingMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2023-09-21 14:52:47.0147|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-09-21 14:52:47.0820|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-09-21 14:52:47.2330|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7184 
+2023-09-21 14:52:47.2480|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 
+2023-09-21 14:52:47.2480|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ProgerTasks 
+2023-09-21 14:52:47.2480|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-09-21 14:52:47.2480|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-09-21 14:52:47.2496|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\ProgerTasks\ProgerTasks 
+2023-09-21 14:52:47.2496|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-09-21 14:52:47.2496|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQG0GDF0VN" received FIN. 
+2023-09-21 14:53:01.9415|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-09-21 14:53:01.9958|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-09-21 14:53:02.0755|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7184 
+2023-09-21 14:53:02.0847|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 
+2023-09-21 14:53:02.0847|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ProgerTasks 
+2023-09-21 14:53:02.0847|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-09-21 14:53:02.0847|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-09-21 14:53:02.0847|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\ProgerTasks\ProgerTasks 
+2023-09-21 14:53:02.0847|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-09-21 14:53:02.1505|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQG0KRE72I" received FIN. 
+2023-09-21 14:53:02.1505|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQG0KRE72I" accepted. 
+2023-09-21 14:53:02.1505|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQG0KRE72I" started. 
+2023-09-21 14:53:02.1640|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-21 14:53:02.1767|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQG0KRE72I" stopped. 
+2023-09-21 14:53:02.1767|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQG0KRE72I" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-09-21 14:53:02.2296|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQG0KRE72J" accepted. 
+2023-09-21 14:53:02.2296|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQG0KRE72J" started. 
+2023-09-21 14:53:02.2567|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMTQG0KRE72J established using the following protocol: Tls13 
+2023-09-21 14:53:02.2726|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-09-21 14:53:02.2726|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-21 14:53:02.2726|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-09-21 14:53:02.2726|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-09-21 14:53:02.2726|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-21 14:53:02.2726|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 14:53:02.2869|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-09-21 14:53:02.2869|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - - 
+2023-09-21 14:53:02.2869|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-09-21 14:53:02.2869|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 14:53:02.3090|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2023-09-21 14:53:02.3090|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-09-21 14:53:02.4056|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-09-21 14:53:02.4056|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending DATA frame for stream ID 1 with length 4746 and flags NONE. 
+2023-09-21 14:53:02.4056|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-09-21 14:53:02.4056|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 118.5640ms 
+2023-09-21 14:53:02.5014|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" received HEADERS frame for stream ID 3 with length 114 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 14:53:02.5014|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - 
+2023-09-21 14:53:02.5014|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 14:53:02.5014|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2023-09-21 14:53:02.5014|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-09-21 14:53:02.6183|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending HEADERS frame for stream ID 3 with length 35 and flags END_HEADERS. 
+2023-09-21 14:53:02.6183|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending DATA frame for stream ID 3 with length 7342 and flags NONE. 
+2023-09-21 14:53:02.6183|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-09-21 14:53:02.6183|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.0187ms 
+2023-09-21 14:53:07.4678|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" received HEADERS frame for stream ID 5 with length 50 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-21 14:53:07.4678|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7184/api/v1/Tasks - - 
+2023-09-21 14:53:07.4678|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-21 14:53:07.4678|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/v1/Tasks' 
+2023-09-21 14:53:07.4678|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'ProgerTasks.Controllers.V1.TasksController.GetAllTasks (ProgerTasks)' with route pattern 'api/v1/Tasks' is valid for the request path '/api/v1/Tasks' 
+2023-09-21 14:53:07.4678|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'ProgerTasks.Controllers.V1.TasksController.GetAllTasks (ProgerTasks)' 
+2023-09-21 14:53:07.4678|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2023-09-21 14:53:07.4678|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ProgerTasks.Controllers.V1.TasksController.GetAllTasks (ProgerTasks)' 
+2023-09-21 14:53:07.4876|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllTasks", controller = "Tasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[ProgerTasks.Domain.Response.IBaseResponse`1[System.Collections.Generic.IEnumerable`1[ProgerTasks.Domain.Entity.TaskEntity]]] GetAllTasks() on controller ProgerTasks.Controllers.V1.TasksController (ProgerTasks). 
+2023-09-21 14:53:07.4876|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-09-21 14:53:07.4876|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-09-21 14:53:07.4876|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-09-21 14:53:07.4876|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-09-21 14:53:07.4876|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0) 
+2023-09-21 14:53:07.4876|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller ProgerTasks.Controllers.V1.TasksController (ProgerTasks) 
+2023-09-21 14:53:07.5050|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller ProgerTasks.Controllers.V1.TasksController (ProgerTasks) 
+2023-09-21 14:53:07.5050|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-09-21 14:53:07.5050|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-21 14:53:07.5050|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-21 14:53:07.5050|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-09-21 14:53:07.5050|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-09-21 14:53:07.5050|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ProgerTasks.Controllers.V1.TasksController.GetAllTasks (ProgerTasks) - Validation state: Valid 
+2023-09-21 14:53:07.5050|0|INFO|ProgerTasks.Service.Implementations.Tasks.TaskService|Request for get all tasks 
+2023-09-21 14:53:07.7411|0|INFO|ProgerTasks.Service.Implementations.Tasks.TaskService|Tasks received 
+2023-09-21 14:53:07.7411|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ProgerTasks.Controllers.V1.TasksController.GetAllTasks (ProgerTasks), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 233.3668ms. 
+2023-09-21 14:53:07.7411|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-09-21 14:53:07.7411|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-09-21 14:53:07.7411|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-21 14:53:07.7411|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-21 14:53:07.7411|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-09-21 14:53:07.7411|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-09-21 14:53:07.7411|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-09-21 14:53:07.7411|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-09-21 14:53:07.7411|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-09-21 14:53:07.7411|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-09-21 14:53:07.7411|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-09-21 14:53:07.7411|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'application/json' and explicitly specified content types 'application/json'. The content types in the accept header must be a subset of the explicitly set content types. 
+2023-09-21 14:53:07.7411|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-09-21 14:53:07.7497|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ProgerTasks.Domain.Response.BaseResponse`1[[System.Collections.Generic.IEnumerable`1[[ProgerTasks.Domain.Entity.TaskEntity, ProgerTasks.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-09-21 14:53:07.7682|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending HEADERS frame for stream ID 5 with length 66 and flags END_HEADERS. 
+2023-09-21 14:53:07.7682|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-09-21 14:53:07.7682|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending DATA frame for stream ID 5 with length 231 and flags NONE. 
+2023-09-21 14:53:07.7682|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-09-21 14:53:07.7682|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-09-21 14:53:07.7682|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-09-21 14:53:07.7682|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-09-21 14:53:07.7682|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-21 14:53:07.7682|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ProgerTasks.Controllers.V1.TasksController.GetAllTasks (ProgerTasks) in 279.8954ms 
+2023-09-21 14:53:07.7682|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ProgerTasks.Controllers.V1.TasksController.GetAllTasks (ProgerTasks)' 
+2023-09-21 14:53:07.7682|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-09-21 14:53:07.7682|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7184/api/v1/Tasks - - - 200 - application/json;+charset=utf-8 303.0276ms 
+2023-09-21 14:53:13.8251|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2023-09-21 14:53:13.8251|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping 
+2023-09-21 14:53:13.8302|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" is closing. 
+2023-09-21 14:53:13.8302|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" is closed. The last processed stream ID was 5. 
+2023-09-21 14:53:13.8302|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTQG0KRE72J" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2023-09-21 14:53:13.8302|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQG0KRE72J" received FIN. 
+2023-09-21 14:53:13.8302|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTQG0KRE72J" sending FIN because: "The client closed the connection." 
+2023-09-21 14:53:13.8302|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HMTQG0KRE72J completed. 
+2023-09-21 14:53:13.8302|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTQG0KRE72J" stopped. 
+2023-09-21 14:53:13.8302|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped 
