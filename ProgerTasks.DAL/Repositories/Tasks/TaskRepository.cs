@@ -35,9 +35,11 @@ public class TaskRepository : ITaskRepository
         using var conn = _appDbContext.CreateConnection();
         
         conn.Open();
-        return await conn.QueryFirstOrDefaultAsync(
+        var task = await conn.QuerySingleOrDefaultAsync<TaskEntity>(
             "INSERT INTO tasks (Author, Title, Description, TeamName, Priority, CreationDate) " +
-                                                   "VALUES(@Author, @Title, @Description, @TeamName, @Priority, @CreationDate)", taskEntity);
+            "VALUES(@Author, @Title, @Description, @TeamName, @Priority, @CreationDate)", taskEntity);
+
+        return task;
     }
     
     public async Task<TaskEntity> UpdateTask(int id, TaskEntity taskEntity)
@@ -77,10 +79,9 @@ public class TaskRepository : ITaskRepository
 
     public async Task<TaskEntity> GetById(int id)
     {
-        using (var conn = _appDbContext.CreateConnection())
-        {
-            conn.Open();
-            return await conn.QueryFirstOrDefaultAsync<TaskEntity>("SELECT * FROM tasks WHERE Id = @Id", new { Id = id });
-        }
+        using var conn = _appDbContext.CreateConnection();
+        
+        conn.Open();
+        return await conn.QueryFirstOrDefaultAsync<TaskEntity>("SELECT * FROM tasks WHERE Id = @Id", new { Id = id });
     }
 }

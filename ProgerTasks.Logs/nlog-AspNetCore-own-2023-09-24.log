@@ -186,3 +186,15 @@
 2023-09-24 17:13:45.5919|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\ProgerTasks\ProgerTasks |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
 2023-09-24 17:13:58.5244|0|INFO|ProgerTasks.Service.Implementations.Tasks.TaskService|Request for create a task - strvbnmbming |url: https://localhost/api/v1/tasks|action: CreateTask|ProgerTasks.Service.Implementations.Tasks.TaskService.CreateTask
 2023-09-24 17:13:59.6265|0|INFO|ProgerTasks.Service.Implementations.Tasks.TaskService|Task created: strvbnmbming |url: https://localhost/api/v1/tasks|action: CreateTask|ProgerTasks.Service.Implementations.Tasks.TaskService.CreateTask
+2023-09-24 18:42:42.1240|0|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: A suitable constructor for type 'ProgerTasks.Middlewares.RequestLoggingMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: |Microsoft.AspNetCore.Hosting.HostingLoggerExtensions.ApplicationError
+2023-09-24 18:45:01.8129|0|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: A suitable constructor for type 'ProgerTasks.Middlewares.RequestLoggingMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: |Microsoft.AspNetCore.Hosting.HostingLoggerExtensions.ApplicationError

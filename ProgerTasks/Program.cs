@@ -16,10 +16,10 @@ builder.Services.AddTransient<TaskHub>();
 
 builder.Services.AddControllers();
 
-builder.Services.AddTransient<AppDbContext>(provier => new AppDbContext(builder.Configuration));
+builder.Services.AddTransient<AppDbContext>(provier => new AppDbContext());
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddEndpointsApiExplorer(); 
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -62,8 +62,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.UseAuthentication();
 
-app.MapControllers();
+    //app.UseCustomMiddlewares();
 
-app.UseCustomMiddlewares();
+app.MapControllers();
 
 app.Run();

@@ -1,0 +1,15 @@
+2023-09-25 16:49:51.0125|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7184 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-09-25 16:49:51.0335|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-09-25 16:49:51.0335|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-09-25 16:49:51.0335|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-09-25 16:49:51.0509|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\ProgerTasks\ProgerTasks |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-09-25 21:32:35.7653|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7184 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-09-25 21:32:35.7800|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-09-25 21:32:35.7800|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-09-25 21:32:35.7800|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-09-25 21:32:35.7800|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\ProgerTasks\ProgerTasks |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-09-25 21:56:56.6326|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7184 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-09-25 21:56:56.6491|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-09-25 21:56:56.6491|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-09-25 21:56:56.6491|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-09-25 21:56:56.6491|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\ProgerTasks\ProgerTasks |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted

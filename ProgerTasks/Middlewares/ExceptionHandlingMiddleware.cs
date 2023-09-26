@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace ProgerTasks.Middlewares;
 
-public class ExceptionHandlingMiddleware
+internal class ExceptionHandlingMiddleware
 {
     private readonly RequestDelegate _next;
     private readonly ILogger<ExceptionHandlingMiddleware> _logger;

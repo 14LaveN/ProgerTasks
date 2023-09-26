@@ -42,7 +42,7 @@ public class AccountRepository : IAccountRepository
         try
         {
 
-            await conn.ExecuteAsync("CREATE INDEX idx_account_teamname_author ON accounts (teamName, author);");
+            //await conn.ExecuteAsync("CREATE INDEX idx_account_teamname_author ON accounts (teamName, author);");
             
             var accountEntity = await conn.QueryFirstOrDefaultAsync<AccountEntity>("SELECT * FROM accounts WHERE TeamName = @TeamName" +
                 " AND Author = @Author", new { TeamName = teamName, Author = author });
@@ -177,9 +177,9 @@ public class AccountRepository : IAccountRepository
         using var transaction = conn.BeginTransaction();
         try
         {
-            await conn.ExecuteAsync("CREATE INDEX idx_account_id ON accounts (id);");
+            //await conn.ExecuteAsync("CREATE INDEX idx_account_id ON accounts (id);");
             
-            var account = await conn.QueryFirstOrDefaultAsync<AccountEntity>("SELECT * FROM accounts WHERE Id = @Id USE INDEX (idx_account_id)", new { Id = id });
+            var account = await conn.QueryFirstOrDefaultAsync<AccountEntity>("SELECT * FROM accounts WHERE Id = @Id", new { Id = id });
         
         transaction.Commit();
         return account;

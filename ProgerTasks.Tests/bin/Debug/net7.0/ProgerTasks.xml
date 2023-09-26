@@ -32,6 +32,19 @@
              <response code="500">Internal server error</response>
             
         </member>
+        <member name="M:ProgerTasks.Controllers.V1.AccountController.Logout">
+             <summary>
+             Logout
+             </summary>
+             <returns>Base information about logout from account</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Logout</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
         <member name="M:ProgerTasks.Controllers.V1.AccountController.ChangePassword(System.String,System.Int32)">
              <summary>
              Change Password

@@ -28,12 +28,12 @@ public class TaskService : ITaskService
         {
             _logger.LogInformation($"Request for create a task - {taskInput.Title}");
 
-            var errors = await _validator.ValidateAsync(taskInput);
-
-            if (errors.Errors.Count is not 0)
-            {
-                throw new AggregateException($"{errors.Errors}");
-            }
+            //var errors = await _validator.ValidateAsync(taskInput);
+//
+            //if (errors.Errors.Count is not 0)
+            //{
+            //    throw new AggregateException($"{errors.Errors}");
+            //}
             
             var task = await _unitOfWork.TaskRepository.GetByTeamNameAndTitle(taskInput.TeamName, taskInput.Title);
 

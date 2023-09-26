@@ -1,13 +1,16 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0e6f6a87_002Df6d5_002D49d8_002Db10f_002D502e8aa6d28c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetAllNotes_ReturnsSuccessResponse_WithListOfNotes" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::AB16C1C9-21D5-436A-8409-1A341CCB1C8A::net7.0::ProgerTasks.Tests.UnitTests.TaskControllerTests.GetAllNotes_ReturnsSuccessResponse_WithListOfNotes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::90E67D13-0FDD-4A02-9F48-8A55F05497A4::net7.0::ProgerTasks.TestProject.Tests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b15388d1_002Deab4_002D4cf2_002Dbbcc_002D6c1b8e9a2ebf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetAllNotes_ReturnsSuccessResponse_WithListOfNotes #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::AB16C1C9-21D5-436A-8409-1A341CCB1C8A::net7.0::ProgerTasks.Tests.UnitTests.TasksControllerTests.CreateTask_ShouldReturnOkStatusCode&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::AB16C1C9-21D5-436A-8409-1A341CCB1C8A::net7.0::ProgerTasks.Tests.UnitTests.TasksControllerTests.CreateTask_ShouldReturnTaskEntity&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB16C1C9-21D5-436A-8409-1A341CCB1C8A::net7.0::ProgerTasks.Tests.UnitTests.ActionsWithTasksTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB16C1C9-21D5-436A-8409-1A341CCB1C8A::net7.0::ProgerTasks.Tests.UnitTests.ActionsWithAccountsTests.UpdateTask_UpdatesTask&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB16C1C9-21D5-436A-8409-1A341CCB1C8A::net7.0::ProgerTasks.Tests.UnitTests.ActionsWithAccountsTests.CreateTask_CreatesTask&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB16C1C9-21D5-436A-8409-1A341CCB1C8A::net7.0::ProgerTasks.Tests.UnitTests.ActionsWithAccountsTests.GetById_ReturnsTask&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB16C1C9-21D5-436A-8409-1A341CCB1C8A::net7.0::ProgerTasks.Tests.UnitTests.ActionsWithAccountsTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Proger/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
